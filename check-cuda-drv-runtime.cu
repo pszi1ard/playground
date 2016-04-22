@@ -5,7 +5,7 @@
  * printed on the command line and a confirmation that a test kernel has been
  * successfully executed on the CUDA GPU.
  *
- * Compile with:    nvcc check-cuda-drv-runtime-version.cu -o chk
+ * Compile with:    nvcc check-cuda-drv-runtime.cu -o chk
  * Then run:        ./chk
  * Expected outputs:
  * - everything working fine (CUDA 7.5 driver + runtime):
